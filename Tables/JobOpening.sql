@@ -8,7 +8,7 @@ CREATE TABLE JobOpening
 	HourlyRate NUMERIC(3,1) NOT NULL,
 	IsAvailable VARCHAR(20) DEFAULT 'AVAILABLE',
 	CompanyId INT FOREIGN KEY REFERENCES Company(CompanyId),
-	QualificationName INT FOREIGN KEY REFERENCES Qualification(QualificationName),
+	QualificationId INT FOREIGN KEY REFERENCES Qualification(QualificationId),
 
 	CONSTRAINT CHECK_Opening_EndingDate CHECK(EndingDate >= StartingDate)
 	CONSTRAINT CHECK_Opening_IsAvailable CHECK(IsAvailable IN('AVAILABLE', 'NOT AVAILABLE'))

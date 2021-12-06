@@ -2,7 +2,8 @@ USE AEC;
 
 CREATE TABLE Qualification
 (
-	QualificationName VARCHAR(20) PRIMARY KEY
+	QualificationId INT IDENTITY(10001, 1) PRIMARY KEY,
+	[Name] VARCHAR(20) PRIMARY KEY
 );
 
 GO;
