@@ -11,4 +11,4 @@ GO;
 INSERT INTO Qualification VALUES
 ('Microsoft Office 365 Certificate'),
 ('C# Certificate'),
-('Professional Certificate in Graphic Design'),
+('Professional Certificate in Graphic Design');

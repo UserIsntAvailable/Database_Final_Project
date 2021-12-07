@@ -19,4 +19,4 @@ INSERT INTO ContactInfo VALUES
 ('Louise', 'Ramirez', '+1 595-687-2674', 'louise.ramirez@example.com'),
 ('Maurice', 'Martin', '+1 805-724-2035', 'maurice.martin@example.com'),
 ('Michael', 'Watson', '+1 537-474-3522', 'michael.watson@example.com'),
-('Jackson', 'Smith', '+1 856-521-5541', 'jackson.smith@example.com')
+('Jackson', 'Smith', '+1 856-521-5541', 'jackson.smith@example.com');

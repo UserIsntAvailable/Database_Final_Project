@@ -15,4 +15,4 @@ GO;
 INSERT INTO Candidate VALUES 
 ('408-31-8616', 'Ypsilanti, MI 48197, USA', 10002),
 ('433-38-8293', '8546 Hunters Creek Dr, Plymouth, MI 48170, USA', 10001),
-('363-10-4267', '7701 Walnut Hl Ln, Dallas, TX 75230, USA', 10003)
+('363-10-4267', '7701 Walnut Hl Ln, Dallas, TX 75230, USA', 10003);

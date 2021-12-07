@@ -13,4 +13,4 @@ GO;
 INSERT INTO CandidateQualification VALUES
 (10001, 10002),
 (10002, 10003),
-(10003, 10001)
+(10003, 10001);
