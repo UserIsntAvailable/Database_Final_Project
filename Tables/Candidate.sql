@@ -7,7 +7,7 @@ CREATE TABLE Candidate
 	HomeAddress NVARCHAR(100) NOT NULL,
 	ContactInfoId INT FOREIGN KEY REFERENCES ContactInfo(ContactInfoId),
 
-	CONSTRAINT CHECK_Candidate_SSN CHECK(SSN LIKE '___-__-____')
+	CONSTRAINT CHECK_Candidate_SSN CHECK(SSN LIKE '[0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9][0-9][0-9]')
 );
 
 GO;
